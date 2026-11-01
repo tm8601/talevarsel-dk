@@ -7,6 +7,8 @@ const ALLOWED_PATTERNS = [
   /^https?:\/\/100\.100\.55\.20(:\d+)?$/,
   /^https?:\/\/100\.(6[4-9]|[7-9]\d|1[0-1]\d|12[0-7])\.\d+\.\d+(:\d+)?$/,
   /^https?:\/\/.*\.sslip\.io(:\d+)?$/,
+  /^https?:\/\/(.*\.)?ai-beregner\.dk(:\d+)?$/,
+  /^https?:\/\/(.*\.)?talevarsel\.dk(:\d+)?$/,
 ];
 
 function getCorsHeaders(request) {
